@@ -10,6 +10,8 @@ Y%*%X
 solve(Y) %*% Y
 solve(Y) %*% X
 solve(Y,X)
+
+
 myFirstRFunc <- function(n){
   stopifnot(is.numeric(n), n%%1==0, n>0) # make sure input is a positive integer number
   total <- 0 # set initial summation

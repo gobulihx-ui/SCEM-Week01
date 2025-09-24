@@ -1,0 +1,23 @@
+---
+title: "gobulihx_1"
+author: "HanXu"
+date: "2025-09-24"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Wave plot
+```{r}
+x <- seq(0,20,0.01)
+y <- sin(x)
+sin_df <- data.frame(x,y)
+head(sin_df,3)
+plot(sin_df)
+```
+\begin{equation}
+\sin^2(x) + \cos^2(x) = 1
+\end{equation}
+

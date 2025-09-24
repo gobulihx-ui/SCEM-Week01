@@ -1,0 +1,13 @@
+---
+title: "assessment1"
+author: "HanXu"
+date: "2025-09-24"
+output: html_document
+---
+
+```{r, echo=FALSE}
+animals <- c("Snake","Ostrich","Cat","Spider")
+num_legs <- c(0,2,4,8)
+animals_df <- data.frame(animals,num_legs)
+print(animals_df)
+```
